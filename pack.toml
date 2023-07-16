@@ -1,0 +1,13 @@
+name = "Nierhain's Madness"
+author = "Nierhain"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8dab64be5d76c24afdb22629d0a64de5ffb85c187466198192877dbfd01d0bc9"
+
+[versions]
+forge = "43.2.19"
+minecraft = "1.19.2"
