@@ -1,0 +1,10 @@
+.curseclient
+/logs
+/saves
+/crash-reports
+/.mixin.out
+/downloads
+minecraftinstance.json
+o_prof
+.qmenu_opened.marker
+/mods
