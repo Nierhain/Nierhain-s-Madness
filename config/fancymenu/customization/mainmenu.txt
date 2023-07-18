@@ -19,23 +19,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  orientation = bottom-centered
-  x = -98
-  action = movebutton
-  y = -11
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  seconds = 0.5
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -50
@@ -81,6 +64,32 @@ customization {
 }
 
 customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-left
+  x = 455
+  action = movebutton
+  y = 180
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = bottom-left
   x = 67
@@ -119,37 +128,79 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-centered
-  x = -50
-  action = movebutton
-  y = 44
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = Accessibility Settings
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 100
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-left
+  x = 37
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 20
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/menu/icons/options.png
-  backgroundnormal = resources/menu/icons/options.png
+  backgroundhovered = resources/menu/icons/mods.png
+  backgroundnormal = resources/menu/icons/mods.png
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = sethoverlabel
-  label =                     §cConfigure your madness
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = Mods
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
   seconds = 0.5
   onlyfirsttime = true
   fadein = true
@@ -189,38 +240,6 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  seconds = 0.5
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = bottom-left
-  x = 6
-  action = movebutton
-  y = -28
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources/menu/icons/language.png
-  backgroundnormal = resources/menu/icons/language.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   seconds = 0.5
   onlyfirsttime = true
   fadein = true
@@ -272,37 +291,37 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = bottom-left
-  x = 37
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -50
   action = movebutton
-  y = -28
+  y = 44
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 20
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 100
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/menu/icons/mods.png
-  backgroundnormal = resources/menu/icons/mods.png
+  backgroundhovered = resources/menu/icons/options.png
+  backgroundnormal = resources/menu/icons/options.png
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label =                     §cConfigure your madness
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   seconds = 0.5
   onlyfirsttime = true
   fadein = true
@@ -311,16 +330,41 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-left
+  x = 6
+  action = movebutton
+  y = -28
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  orientation = top-left
-  x = 455
-  action = movebutton
-  y = 180
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/menu/icons/language.png
+  backgroundnormal = resources/menu/icons/language.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Language settings
 }
 
 customization {
@@ -392,26 +436,6 @@ customization {
 }
 
 customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/{"placeholder":"guiheight"} * 0.5 * 100","decimal":"true"}}
-  orientation = top-left
-  delayappearanceseconds = 0.25
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2 -  {"placeholder":"elementwidth","values":{"id":"55a52e8a-610e-4635-9725-229f628926811689363964698"}}/2","decimal":"true"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/{"placeholder":"guiheight"} * 0.5 * 248","decimal":"true"}}
-  advanced_posy = 4
-  path = resources/menu/text.png
-  fadein = true
-  fadeinspeed = 1.0
-  x = 0
-  width = 231
-  action = addtexture
-  actionid = 55a52e8a-610e-4635-9725-229f628926811689363964698
-  y = 0
-  delayappearance = true
-  delayappearanceeverytime = false
-  height = 93
-}
-
-customization {
   orientation = top-left
   enable_scrolling = false
   shadow = true
@@ -428,7 +452,7 @@ customization {
   width = 212
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 46d8216d-6ce3-45f2-b8f8-fb2af7e27cae1689368379547
-  y = 7
+  y = 4
   delayappearance = true
   alignment = left
   delayappearanceeverytime = false
@@ -452,7 +476,7 @@ customization {
   width = 48
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 1093fa61-38de-431c-8b8a-09baba8c7e931689368844855
-  y = 7
+  y = 3
   delayappearance = true
   alignment = right
   delayappearanceeverytime = false
@@ -469,9 +493,29 @@ customization {
   width = 16
   action = addtexture
   actionid = b6b72f7e-862c-4916-b301-ac5dea81275e1689506608582
-  y = 5
+  y = 2
   delayappearance = true
   delayappearanceeverytime = false
   height = 16
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/{"placeholder":"guiheight"} * 0.5 * 100","decimal":"true"}}
+  orientation = top-left
+  delayappearanceseconds = 0.25
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2 -  {"placeholder":"elementwidth","values":{"id":"55a52e8a-610e-4635-9725-229f628926811689363964698"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/{"placeholder":"guiheight"} * 0.5 * 248","decimal":"true"}}
+  advanced_posy = 8
+  path = resources/menu/text.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 231
+  action = addtexture
+  actionid = 55a52e8a-610e-4635-9725-229f628926811689363964698
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 93
 }
 

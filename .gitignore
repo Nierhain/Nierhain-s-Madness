@@ -8,3 +8,14 @@ minecraftinstance.json
 o_prof
 .qmenu_opened.marker
 /mods
+
+/kubejs/exported
+options.txt
+reauth.toml
+rhino.local.properties
+/schematics
+/resourcepacks
+/local/
+/simplebackups/
+/XaeroWaypoints*/
+/XaeroWorldMap/
