@@ -91,20 +91,145 @@
 		{
 			dependencies: ["35D505752E4CAFB2"]
 			description: [
-				"While these creatures around you started emerging out of thin air at night, attacking us on first sight complicating any real progress, I was on the verge of finding a solution. But as you might tell already, it seems like it isn’t the solution I had hoped for. But it’s a beginning. I collected all my notes and findings in this book you’re holding right now, in the hopes of you finding a solution, if I fail. I trust you with the fate of humanity. I have to leave you with this now and do my part. Hopefully I am correct otherwise this pacifies the creatures, so you have an easier time than I did. "
+				"While these creatures around you started emerging out of thin air at night, attacking us on first sight complicating any real progress, I was on the verge of finding a solution. But as you might tell already, it seems like it isn’t the solution I had hoped for. But it’s a beginning. "
+				""
+				"I collected all my notes and findings in this book you’re holding right now, in the hopes of you finding a solution, if I fail. I trust you with the fate of humanity. I have to leave you with this now and do my part. Hopefully I am correct otherwise this pacifies the creatures, so you have an easier time than I did. "
 				""
 				"You can do this!"
 				""
 				"- Nierhain, Leading Scientist of InfiniCorp"
+				""
+				"&eDon't use the akashic tome for crafting. You are safer off crafting another book than using the one in the tome"
 			]
 			hide: true
 			id: "045D9668333D5D08"
 			min_width: 280
-			rewards: [{
-				id: "683947544682DF22"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "683947544682DF22"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2C93363BACDB4FBF"
+					item: {
+						Count: 1b
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								advancedperipherals: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+								ae2: {
+									Count: 1b
+									id: "ae2:guide"
+								}
+								alchemistry: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "alchemistry:alchemistry_book"
+									}
+								}
+								apotheosis: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+								botania: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+								elementalcraft: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "elementalcraft:element_book"
+									}
+								}
+								extendedcrafting: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "extendedcrafting:guide"
+									}
+								}
+								hexcasting: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+								industrialforegoing: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+								laserio: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "laserio:laseriobook"
+									}
+								}
+								modonomicon: {
+									Count: 1b
+									id: "modonomicon:modonomicon"
+									tag: {
+										"modonomicon:book_id": "theurgy:the_hermetica"
+									}
+								}
+								mysticalagriculture: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+								naturesaura: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+								rftoolsbase: {
+									Count: 1b
+									id: "rftoolsbase:manual"
+								}
+								sebastrnlib: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+									}
+								}
+								solcarrot: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+								thermal: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "238D6CF1764904CD"

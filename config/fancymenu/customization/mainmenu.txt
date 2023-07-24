@@ -189,6 +189,11 @@ customization {
 }
 
 customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = bottom-left
   x = 67
@@ -520,7 +525,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604346%
+  identifier = %id=4936%
   action = hidebutton
 }
 
