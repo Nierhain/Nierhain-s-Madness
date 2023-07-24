@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "the_beginning"
+	group: ""
+	icon: "quark:clear_shard"
+	id: "701E16533924F140"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This chapter explains some basic concepts of modded minecraft and this modpack in general."]
+			disable_toast: true
+			id: "2929B35E0A5C0CE4"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2EDE9D538FED2267"
+				title: "Breaking the Immersion"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["287A5F476C50393F"]
+			disable_toast: true
+			id: "11F4B32608148DD0"
+			optional: true
+			rewards: [{
+				command: "/gamerule doWeatherCycle false"
+				exclude_from_claim_all: true
+				id: "5734A15FF166FEB1"
+				player_command: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "643996EB5D9A8542"
+				title: "Disable rain"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2929B35E0A5C0CE4"]
+			description: [
+				"When making YouTube videos there are some things that are either annoying or flat out ruining the viewing experience for (some) people. These settings and gamerules might help you alleviate some of the pain points."
+				""
+				"Some of them could even enrich your single player experience"
+			]
+			disable_toast: true
+			id: "287A5F476C50393F"
+			tasks: [{
+				id: "06A319F62C79D9DA"
+				title: "Content Creator Settings"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["287A5F476C50393F"]
+			dependency_requirement: "all_started"
+			disable_toast: true
+			id: "36A65B612DC5506D"
+			optional: true
+			rewards: [{
+				command: "/gamerule doWeatherCycling true"
+				exclude_from_claim_all: true
+				id: "2896DD78AAAC4AFC"
+				player_command: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "4422A3D8D647D794"
+				title: "Enable weather"
+				type: "checkmark"
+			}]
+			title: "Enable rain"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["287A5F476C50393F"]
+			disable_toast: true
+			id: "26ED0458BB205F39"
+			rewards: [{
+				command: "/gamerule doTraderSpawning false"
+				exclude_from_claim_all: true
+				id: "4233CA43DDCF8351"
+				player_command: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "0B9E17697FEB857C"
+				title: "Disable wandering trader"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["287A5F476C50393F"]
+			dependency_requirement: "all_started"
+			disable_toast: true
+			id: "0AE4E62A6625BAC0"
+			rewards: [{
+				command: "/gamerule doTraderSpawning true"
+				exclude_from_claim_all: true
+				id: "21ABE535A3565884"
+				player_command: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "6965136DAC91D97E"
+				title: "Enable wandering trader"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: ["This pack is a kitchen-sink-esque story pack. Although it has a storyline (depending on what development stage you are playing this right now) it's not artificially gating any mod behind another mod, rather it's trying to keep every stage of mods on similar power levels and requirements. In essence you do not have to use a specific mod to get some materials, you just need to gather the respective materials."]
+			disable_toast: true
+			icon: "minecraft:grass_block"
+			id: "6468AE14B6E262F4"
+			size: 1.5d
+			tasks: [{
+				id: "1D19AE109CED811E"
+				title: "What is this modpack?"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6468AE14B6E262F4"]
+			description: [
+				"There is a somewhat linear progression system, but it's only to help you progress faster or more efficient rather than eliminating the way you want to do things. "
+				""
+				"You could jump straight into mekanism and start quadrupling your ores, but you might be better off using Create or Thermal while progressing in other mods or experimenting with other mods."
+			]
+			disable_toast: true
+			icon: "ironchest:wood_to_iron_chest_upgrade"
+			id: "206C386A8F365485"
+			tasks: [{
+				id: "0B1DF5A6C93D4BE9"
+				title: "Progressing through the pack"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6468AE14B6E262F4"]
+			description: [
+				"The quest book is not only guiding you through this modpack and giving you stuff to do, but also the primary way to experience the story."
+				""
+				"Therefore the quest texts are coded in a \"special\" way to convey some sort of dialog. Everything written in &oitalics&r symbolize the thoughts going through your characters head, while regular lines represent diary entries. Also everything in &eyellow &r is a hint or tip to help you with the next step(s) or explain some concept."
+			]
+			disable_toast: true
+			icon: "ftbquests:book"
+			id: "6BEDC8B5E64012FA"
+			tasks: [{
+				id: "46ED62793CDFC1D1"
+				title: "The quest book"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["206C386A8F365485"]
+			description: ["If you want to spoil yourself or just check what the \"recommended\" path would look like, you can click this reward to see the complete progression system this pack has to offer."]
+			disable_toast: true
+			hide: true
+			id: "79B77F2C986CAAB2"
+			rewards: [{
+				auto: "invisible"
+				id: "012B6A085C4A07FD"
+				ignore_reward_blocking: true
+				stage: "progression_spoiler"
+				team_reward: false
+				type: "gamestage"
+			}]
+			subtitle: "Careful: Spoilers ahead"
+			tasks: [{
+				id: "12B347CE36DBCE57"
+				title: "The progression tree"
+				type: "checkmark"
+			}]
+			title: "Progression"
+			x: -2.5d
+			y: 4.0d
+		}
+	]
+	title: "Breaking the Immersion"
+}

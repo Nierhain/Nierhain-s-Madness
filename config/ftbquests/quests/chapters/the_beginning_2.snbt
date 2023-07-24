@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning_2"
+	group: "4EE5684F382227DD"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:grass_block"
+	id: "1F26C0687CADFE1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&oOuch... what happened? What is this strange world? And what are these... things... around me?"
+				"&oAnd what is this book?"
+				"&r"
+				""
+				"Well… If you’re reading this, i have failed. Catastrophically, to be frank…"
+				""
+				"Anyway… I need you to read everything i wrote carefully. We can’t let another failure happen."
+				""
+				"You might have noticed some strange creatures and the living dead around you. Let’s just accept them for now. They won’t hurt you …until provoken there is. "
+			]
+			hide_dependency_lines: false
+			id: "46CF20504734DED0"
+			rewards: [{
+				id: "24905D85EEA9FE10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DD42116F5527B4A"
+				title: "Waking up in a strang world"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DD42116F5527B4A"]
+			description: [
+				"Alright, let’s just get you up to speed, so you might get a handle on this whole mess.  You might remember scientists discovering a new and rather sustainable way of getting resources and energy from merely thin air. Fact of the matter is, we tapped into another dimension where our known elements began to wildly fuse, shatter and doing all sorts of weird stuff. We called it “Infinite Weird”. Creative, i know.  "
+				""
+				"While everything was fine at first and we got the hang of harnessing our new power (minus the typical… casualties) something went horribly wrong. While we usually just had to open a small rift by imploding anti matter and pouring some kind of suprafluid into the rift to stabilize it, the rift itself suddenly exploded. There was no shockwave or sudden rush in temperature, but this eery feeling something’s not quite right. At least it’s what I felt at the moment."
+			]
+			hide: true
+			hide_dependency_lines: false
+			id: "5C28BB5E9CD88B6A"
+			min_width: 280
+			rewards: [{
+				id: "69774802DD074CAC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12DFB2110F1B50A9"
+				title: "Hybris of men"
+				type: "checkmark"
+			}]
+			title: "The Infinite Weird"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C28BB5E9CD88B6A"]
+			description: [
+				"A look on the outside confirmed what I was feeling at the moment. The rift hadn’t just shattered, but created a giant door from our dimension to the Infinite Weird, which we now saw for the first in it’s full appearance. It seemed - or rather seems - like a blueprint of our world. Untouched wilderness and lushious plants. But also withered and fragile. It was calming and frightening at the same time. We knew we had to close this rift as soon as possible."
+				""
+				"Well… before we could vocalize any idea, a second explosion happened and the door collapsed. Or rather it expanded until it collapsed, expanding again before fully collapsing into nothingness. This time it was even more disturbing than the first time. It had fused our world and the Infinite Weird into the same dimension. I don’t know how it’s possible and - truthfully - it doesn’t matter at this point either. We just need to reverse this immediately."
+			]
+			hide: true
+			id: "35D505752E4CAFB2"
+			min_width: 280
+			rewards: [{
+				id: "60FE125D27BD575D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "429AF3D92C8EB580"
+				title: "Test"
+				type: "checkmark"
+			}]
+			title: "Two worlds collide"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35D505752E4CAFB2"]
+			description: [
+				"While these creatures around you started emerging out of thin air at night, attacking us on first sight complicating any real progress, I was on the verge of finding a solution. But as you might tell already, it seems like it isn’t the solution I had hoped for. But it’s a beginning. I collected all my notes and findings in this book you’re holding right now, in the hopes of you finding a solution, if I fail. I trust you with the fate of humanity. I have to leave you with this now and do my part. Hopefully I am correct otherwise this pacifies the creatures, so you have an easier time than I did. "
+				""
+				"You can do this!"
+				""
+				"- Nierhain, Leading Scientist of InfiniCorp"
+			]
+			hide: true
+			id: "045D9668333D5D08"
+			min_width: 280
+			rewards: [{
+				id: "683947544682DF22"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "238D6CF1764904CD"
+				title: "Search for a Solution"
+				type: "checkmark"
+			}]
+			title: "In search of a solution"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["238D6CF1764904CD"]
+			hide: true
+			id: "5DEF0BF64B478492"
+			tasks: [{
+				count: 4L
+				id: "755CDC568A5482B8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Getting wood"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "The Beginning"
+}

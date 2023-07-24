@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "item": "#forge:ingots",
+      "emc": 0
+    },
+    {
+      "item": "#forge:stone",
+      "emc": 8
+    },
+    {
+      "item": "#botanypots:all_botany_pots",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:leaves",
+      "emc": 0
+    },
+    {
+      "item": "#chipped:basalt",
+      "emc": 8
+    }
+  ]
+}
