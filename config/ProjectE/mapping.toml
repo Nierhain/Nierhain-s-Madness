@@ -11,43 +11,43 @@
 
 	[CraftingMapper.MekRotary]
 		#Maps Mekanism rotary condensentrator recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekElectrolysis]
 		#Maps Mekanism electrolytic separator recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekItemStackToPigment]
 		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekDissolution]
 		#Maps Mekanism dissolution recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekItemStackGasToItemStack]
 		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekPaintingMachine]
 		#Maps Mekanism painting machine recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekGasToGas]
 		#Maps Mekanism activating and centrifuging recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekFluidSlurryToSlurry]
 		#Maps Mekanism washing recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekItemStackToItemStack]
 		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekChemicalInfuser]
 		#Maps Mekanism chemical infuser recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekSawmill]
 		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
@@ -55,7 +55,7 @@
 
 	[CraftingMapper.MekCombiner]
 		#Maps Mekanism combiner recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekPressurizedReaction]
 		#Maps Mekanism pressurized reaction recipes.
@@ -63,53 +63,53 @@
 
 	[CraftingMapper.MekFluidToFluid]
 		#Maps Mekanism evaporating recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekChemicalCrystallizer]
 		#Maps Mekanism crystallizing recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.Smithing]
 		#Maps smithing recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekMetallurgicInfuser]
 		#Maps Mekanism metallurgic infuser recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekItemStackToGas]
 		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekPigmentMixer]
 		#Maps Mekanism pigment mixer recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.FallbackRecipeType]
 		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.VanillaRecipeTypes]
 		#Maps the different vanilla recipe types.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekItemStackToInfuseType]
 		#Maps Mekanism item stack to infuse type conversion recipes.
-		enabled = true
+		enabled = false
 
 [enabledMappers]
 	#Set EMC=0 for everything in the forge:raw_materials tag
 	RawOresBlacklistMapper = false
 	#Set EMC=0 for everything in the forge:ores tag
-	OresBlacklistMapper = true
+	OresBlacklistMapper = false
 	#Add Conversions for Crafting Recipes gathered from net.minecraft.item.crafting.RecipeManager
 	CraftingMapper = false
 	#Add Conversions for all lingering potions to arrow recipes
-	TippedArrowMapper = true
+	TippedArrowMapper = false
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
-	TagMapper = true
+	TagMapper = false
 	#Add Conversions for all weathered copper variants
-	WeatheredCopperMapper = true
+	WeatheredCopperMapper = false
 	#Allows KubeJS ProjectE to function
 	KubeJSProjectE = true
 	#Add Conversions for Brewing Recipes
@@ -120,3 +120,4 @@
 	APICustomEMCMapper = true
 	#Loads json files within datapacks (data/<domain>/pe_custom_conversions/*.json) to add values and conversions
 	CustomConversionMapper = true
+
