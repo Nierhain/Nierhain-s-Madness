@@ -120,7 +120,7 @@ global.customItems = [
 ];
 
 StartupEvents.registry("item", (event) => {
-    customItems.forEach((item) => {
+    global.customItems.forEach((item) => {
         event
             .create(item.name)
             .displayName(item.displayName)
