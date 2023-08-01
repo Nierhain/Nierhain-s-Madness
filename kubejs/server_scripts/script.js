@@ -139,7 +139,7 @@ ServerEvents.recipes((event) => {
                 item: "extendedcrafting:enhanced_redstone_ingot",
             },
             H: {
-                item: "extendedcrafting:crystaltine_ingot",
+                item: "madness:ultimate_chemical",
             },
             I: {
                 item: "extendedcrafting:enhanced_ender_ingot",

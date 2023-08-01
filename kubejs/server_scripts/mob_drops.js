@@ -32,7 +32,7 @@ const drops = [
     },
     {
         input: ["2x madness:guardian_scales"],
-        result: "minecraft:prismarine_crystal",
+        result: "minecraft:prismarine_crystals",
         count: 10,
     },
     {
@@ -52,7 +52,7 @@ const drops = [
         count: 6,
     },
     { input: ["madness:wither_flesh"], result: "minecraft:coal", count: 8 },
-    { input: ["madness:slime_rib"], result: "minecraft:slimeball", count: 6 },
+    { input: ["madness:slime_rib"], result: "minecraft:slime_ball", count: 6 },
     {
         input: ["madness:shulker_gristle"],
         result: "minecraft:shulker_shell",
@@ -66,7 +66,7 @@ const drops = [
     },
     {
         input: ["madness:hoglin_tallow"],
-        result: "minecraft:raw_porkchop",
+        result: "minecraft:porkchop",
         count: 6,
     },
     {
@@ -84,7 +84,7 @@ const drops = [
 const witchingJar = [
     {
         pattern: ["W  ", "W  ", "W  "],
-        result: "minecraft:redstone_dust",
+        result: "minecraft:redstone",
         count: 6,
     },
     {
@@ -96,21 +96,47 @@ const witchingJar = [
     { pattern: ["   ", "WWW", "   "], result: "minecraft:sugar", count: 6 },
 ];
 
-ServerEvents.recipe((event) => {
+ServerEvents.recipes((event) => {
     drops.forEach((drop) => {
+        console.info(drop);
         event.shapeless(Item.of(drop.result, drop.count), drop.input);
     });
     witchingJar.forEach((jar) => {
+        console.info(jar);
         event.shaped(Item.of(jar.result, jar.count), jar.pattern, {
             W: "madness:witching_jar",
         });
     });
-    event.shaped(Item.of("minecraft:wither_skeleton_skull"), ["   ", "", ""], {
-        W: "madness:wither_flesh",
-        S: "mysticalagriculture:",
-    });
+    event.shaped(
+        Item.of("minecraft:wither_skeleton_skull"),
+        [" W ", "WSW", " W "],
+        {
+            W: "madness:wither_flesh",
+            S: "mysticalagriculture:blank_skull",
+        }
+    );
 });
 
-onEvent("lootjs", (event) => {
-    
-})
+// onEvent("lootjs", (event) => {
+//     global.customMobDrops.forEach((drop) => {
+//         drop.entities.forEach((entity) => {
+//             event
+//                 .addEntityLootModifier(entity)
+//                 .addWeightedLoot([
+//                     Item.of(drop.name).withChance(drop.dropChance),
+//                 ]);
+//         });
+//     });
+// });
+
+LootJS.modifiers((event) => {
+    global.customMobDrops.forEach((drop) => {
+        drop.entities.forEach((entity) => {
+            event
+                .addEntityLootModifier(entity)
+                .addWeightedLoot([
+                    Item.of(drop.name).withChance(drop.dropChance),
+                ]);
+        });
+    });
+});
