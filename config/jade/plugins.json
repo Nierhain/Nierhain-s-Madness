@@ -1,7 +1,4 @@
 {
-  "enderchests": {
-    "hud": true
-  },
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
@@ -66,16 +63,8 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "lootr": {
-    "info": true
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -110,15 +99,9 @@
     "advanced_auto_table": true,
     "compressor": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "tesseract": {
     "tesseract": true,
     "remove_default": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
   },
   "projecte": {
     "emc_provider": true
@@ -132,14 +115,6 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
-  "mysticalagradditions": {
-    "infused_farmland": true
   },
   "pipez": {
     "pipe": true
@@ -167,6 +142,40 @@
     "sink": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "enderchests": {
+    "hud": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "exnihilosequentia": {
+    "barrel": true,
+    "crucible": true,
+    "sieve": true,
+    "infesting_leaves": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,
