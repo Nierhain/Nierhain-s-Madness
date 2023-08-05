@@ -361,4 +361,9 @@ ServerEvents.recipes((event) => {
             item: "madness:ultimate_chemical",
         },
     });
+
+    event.shaped(Item.of("madness:ultimate_pickaxe"), ["III", " S ", " S "], {
+        I: "extendedcrafting:the_ultimate_ingot",
+        S: "minecraft:stick",
+    });
 });

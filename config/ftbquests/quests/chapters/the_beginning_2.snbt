@@ -244,6 +244,11 @@
 			dependencies: ["238D6CF1764904CD"]
 			hide: true
 			id: "5DEF0BF64B478492"
+			rewards: [{
+				id: "7000E7DDD63E060E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 4L
 				id: "755CDC568A5482B8"

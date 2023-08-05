@@ -10,7 +10,7 @@
 	#Generation Settings for tin ore.
 	[world_generation.tin]
 		#Determines if tin ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#small tin vein Generation Settings.
 		[world_generation.tin.small]
@@ -97,7 +97,7 @@
 	#Generation Settings for osmium ore.
 	[world_generation.osmium]
 		#Determines if osmium ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#upper osmium vein Generation Settings.
 		[world_generation.osmium.upper]
@@ -225,7 +225,7 @@
 	#Generation Settings for uranium ore.
 	[world_generation.uranium]
 		#Determines if uranium ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#small uranium vein Generation Settings.
 		[world_generation.uranium.small]
@@ -312,7 +312,7 @@
 	#Generation Settings for fluorite ore.
 	[world_generation.fluorite]
 		#Determines if fluorite ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#normal fluorite vein Generation Settings.
 		[world_generation.fluorite.normal]
@@ -399,7 +399,7 @@
 	#Generation Settings for lead ore.
 	[world_generation.lead]
 		#Determines if lead ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#normal lead vein Generation Settings.
 		[world_generation.lead.normal]
@@ -451,10 +451,10 @@
 		perChunk = 2
 		#Base radius of a vein of salt.
 		#Range: 1 ~ 4
-		minRadius = 2
+		minRadius = 4
 		#Extended variability (spread) for the radius in a vein of salt.
-		maxRadius = 3
+		maxRadius = 4
 		#Number of blocks to extend up and down when placing a vein of salt.
 		#Range: 0 ~ 2031
-		halfHeight = 1
+		halfHeight = 4
 

@@ -9,6 +9,258 @@
 	id: "018CE42FA292CBE7"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4D6F780B62241760"]
+			dependency_requirement: "one_started"
+			hide: false
+			id: "29F199997D9FFFA0"
+			tasks: [{
+				id: "7C557BCAC1CFFEC4"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "4D6F780B62241760"
+			tasks: [{
+				id: "4277572624208720"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29F199997D9FFFA0"]
+			hide: false
+			id: "5D95CCD9A769F63D"
+			tasks: [{
+				id: "455485791A03B6F4"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D95CCD9A769F63D"]
+			hide: false
+			id: "249418AE4140CFC1"
+			tasks: [{
+				id: "271AF39539CBC1FA"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["249418AE4140CFC1"]
+			hide: false
+			id: "28CE6D4853166EAF"
+			tasks: [{
+				id: "19A5C0DF8966EC47"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "0DC82F8406FCD646"
+			tasks: [{
+				id: "0FA779987BF87A6D"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3F318F183458D757"
+			tasks: [{
+				id: "35DA79F2B01DDBBE"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "5A4CA37C4D19AB45"
+			tasks: [{
+				id: "4A888C53AC3EFD63"
+				item: "mekanismgenerators:solar_panel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "7D6CF37482893281"
+			tasks: [{
+				id: "556E37896B00FA94"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "02AFDED2983AF550"
+			tasks: [{
+				id: "45CE41627194D760"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "1976523F11C5E7A2"
+			tasks: [{
+				id: "22A563ECDEA9D46F"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "2709030B83D0E1A4"
+			tasks: [{
+				id: "17FE28412C64553F"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5C33CEADEAC92EE4"
+			tasks: [{
+				id: "6DDF5F12035C7474"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "05AFD96842A0B4C1"
+			tasks: [{
+				id: "2F0E169C14177601"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "448CD1AE7EF44894"
+			tasks: [{
+				id: "24A42CA2616128CE"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "4B0272C67CDE4363"
+			tasks: [{
+				id: "6A361898D88CD375"
+				item: "chickens:catcher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "750BDBEFB71A4FAF"
+			tasks: [{
+				id: "2CDB8378FFC71615"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "2C66D38DD9A31465"
+			tasks: [{
+				id: "45FA445C304BAFB3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "04B0A17CA5B1A1A2"
+			tasks: [{
+				id: "425443FCC0A9FAF0"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "698120E4212385F7"
+			tasks: [{
+				id: "4AB4827D0AE3CD60"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "09E315B03544388C"
+			tasks: [{
+				id: "48D0BC6E38174F1C"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "6719711FA5A1C85E"
+			tasks: [{
+				id: "39AD28A8C559D76E"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "45DACF9D78BBFFF3"
+			tasks: [{
+				id: "2B678D421D67E756"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+	]
 	title: "Progression"
 }

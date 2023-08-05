@@ -26,7 +26,7 @@ EnableAdvancedConfig = false
     #
     # Default: true
     #
-    EnableUraniumGeneration = true
+    EnableUraniumGeneration = false
 
 [Reactor]
     #

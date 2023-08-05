@@ -63,6 +63,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "platforms": {
+    "hud": true
+  },
   "custommachinery": {
     "machine_component_provider": true
   },

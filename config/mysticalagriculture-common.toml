@@ -38,7 +38,7 @@
 [World]
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
 	#Range: 0.0 ~ 1.0
-	souliumOreChance = 0.05
+	souliumOreChance = 0
 	#The minimum Y level that Prosperity Ore veins can spawn.
 	#Range: -64 ~ 319
 	prosperitySpawnMinY = -60
@@ -46,7 +46,7 @@
 	#Range: -64 ~ 319
 	inferiumSpawnMaxY = 64
 	#Should Inferium Ore generate in the world?
-	generateInferiumOre = true
+	generateInferiumOre = false
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	soulstoneSpawnSize = 64
@@ -80,5 +80,5 @@
 	#Range: 0 ~ 128
 	soulstoneSpawnMaxY = 128
 	#Should Prosperity Ore generate in the world?
-	generateProsperityOre = true
+	generateProsperityOre = false
 

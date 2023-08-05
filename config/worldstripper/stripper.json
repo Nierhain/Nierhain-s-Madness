@@ -45,6 +45,25 @@
     "minecraft:kelp_plant",
     "minecraft:deepslate",
     "minecraft:tuff",
-    "minecraft:glow_lichen"
+    "minecraft:glow_lichen",
+    "byg:soapstone",
+    "xycraft_world:kivi",
+    "minecraft:smooth_basalt",
+    "minecraft:calcite",
+    "create:veridium",
+    "byg:fir_leaves",
+    "byg:fir_log",
+    "byg:peat",
+    "minecraft:coarse_dirt",
+    "minecraft:mossy_cobblestone",
+    "minecraft:oak_planks",
+    "minecraft:rail",
+    "minecraft:oak_fence",
+    "minecraft:cobweb",
+    "byg:dacite",
+    "byg:mahogany_leaves",
+    "byg:overgrown_stone",
+    "minecraft:clay",
+    "minecraft:moss_block"
   ]
 }

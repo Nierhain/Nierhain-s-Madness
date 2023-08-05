@@ -15,4 +15,12 @@ StartupEvents.registry("item", (event) => {
             .maxStackSize(item.stackSize)
             .glow(!!item.glow);
     });
+
+    event
+        .create("madness:ultimate_pickaxe", "pickaxe")
+        .displayName("Ultimate Pickaxe")
+        .texture("madness:item/ultimate_pickaxe")
+        .tier("creative")
+        .speed(10)
+        .glow(true);
 });
