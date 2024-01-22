@@ -46,7 +46,7 @@
 	#Range: -64 ~ 319
 	inferiumSpawnMaxY = 64
 	#Should Inferium Ore generate in the world?
-	generateInferiumOre = false
+	generateInferiumOre = true
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	soulstoneSpawnSize = 64
@@ -80,5 +80,5 @@
 	#Range: 0 ~ 128
 	soulstoneSpawnMaxY = 128
 	#Should Prosperity Ore generate in the world?
-	generateProsperityOre = false
+	generateProsperityOre = true
 
